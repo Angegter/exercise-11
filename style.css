@@ -1,0 +1,93 @@
+.jake {
+    width: 30vw;
+    height: 40vh;
+    position: relative;
+    background-color: #f9c029;
+  }
+  .face {
+    position: absolute;
+    margin: 0;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -30%); 
+  }
+  .eyes {
+    width: 29rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  .eye {
+    height: 12.5rem;
+    width: 12.5rem;
+    background-color: black;
+    border-radius: 50%;
+  }
+  .pupil {
+    height: 9.5rem;
+    width: 9.5rem;
+    background-color: white;
+    border-radius: 50%;
+    margin: 0.7rem 0.5rem 1rem 2rem;
+  }
+  .nose {
+    background-color: #f9c029;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;;
+    margin: -7rem 5.5rem;
+    border: 0.25rem solid black;
+    width: 18rem;
+    height: 12rem;
+    border-radius: 50% 50% 0 0;
+    border-bottom: none;
+  }
+  .clear {
+    background-color: #f9c029;
+    position: absolute;
+    width: 20rem;
+    margin-left: -1rem;
+    height: 3rem;
+  }
+  .left-side, .right-side {
+    border: 0.25rem solid black;
+    background-color: #f9c029;
+    width: 8rem;
+    height: 6rem;
+    border-radius: 0 0 45% 45% ;
+    border-top: none;
+    z-index: 1000;
+  }
+  .left-side {
+    margin-left: -0.24rem;
+  }
+  .right-side {
+    margin-right: -0.24rem;
+  }
+  .tip {
+    background-color: black;
+    width: 10rem;
+    height: 4.8rem;
+    border-radius: 50%;
+    z-index: 100000;
+    display: flex;
+    align-self: flex-start;
+    margin-top: 3rem;
+    margin-left: -0.5rem;
+    margin-right: -0.5rem;
+  }
+  .mouth {
+    z-index: 1;
+    border: 0.25rem solid black;
+    width: 7rem;
+    position: absolute;
+    top: 92%;
+    left: 38%;
+    height: 4rem;
+    border-radius: 0 0 50% 50%;
+    border-top: none;
+  }
+.dog{
+    width: 0%;
+    height: 0%;
+}
